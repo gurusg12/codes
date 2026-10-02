@@ -1,0 +1,42 @@
+{
+  "name": "node-api-pulse",
+  "version": "1.1.0",
+  "description": "Lightweight, dependency-free Node.js API and system monitoring toolkit",
+  "main": "index.js",
+  "bin": {
+    "node-api-watch": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "monitoring",
+    "api",
+    "performance",
+    "http",
+    "logging",
+    "metrics",
+    "rate-limit",
+    "system-monitor"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "author": "Guru Gachinamath <gurugachinamath12@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurusg12/node-api-watch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gurusg12/node-api-watch.git"
+  },
+  "homepage": "https://github.com/gurusg12/node-api-watch.git#readme"
+}
